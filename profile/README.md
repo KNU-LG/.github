@@ -18,7 +18,9 @@
 ## Table of Contents
   - [outline](#Introduction-to-the-Project) 
 
-  - [project contect](#프로젝트-설명)
+  - [Project Content](#Project-Content)
+
+  - [Usage Technology Stack](#Usage-Technology-Stack)
 
 <br/><br>
 # Introduction to the Project
