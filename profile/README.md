@@ -22,9 +22,9 @@
 
   - [Usage Technology Stack](#Usage-Technology-Stack)
 
-  - [Getting Started](Getting-Started)
+  - [Getting Started](#Getting-Started)
 
-  - [License](License)
+  - [License](#License)
 
 <br/><br>
 # Introduction to the Project
