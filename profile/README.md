@@ -16,7 +16,7 @@
 </table>
 
 ## Table of Contents
-  - [outline](#Introduction-to-the-Project) 
+  - [Outline](#Introduction-to-the-Project) 
 
   - [Project Content](#Project-Content)
 
