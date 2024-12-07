@@ -58,29 +58,45 @@ By implementing a function to provide various information while minimizing batte
 - Standby Screen Customization: Various widgets are customized to suit user needs and displayed on the standby screen. Additional functions are also developed and displayed on the screen. (e.g., slide show, weather information, schedule list, media play, medication notification, etc.)
 
 
-### **Implemented Features and Technologies**
+
+## Implemented Features and Technologies
 
 ### Home Screen
 
 This is the initial screen that appears when the application starts. The configured widgets are displayed here.
 
+![Home Sreen](/profile/assets/docsImage/image-1.png)
+
+You can also add a wallpaper through the widget setting mode.
+
+![Add Image](/profile/assets/docsImage/image-11.png)
+
 ### Settings Screen
 
 This screen allows users to access various features.
 
+![Settings Screen](/profile/assets/docsImage/image-9.png)
 ### Login and Signup
 
 `react-hook-form` is used for validation, and `useForm` is utilized to manage login and signup states.<br/>
+
 **On login or signup** -> The input values are sent to the server, and a token is received in response.
+
+![Login Screen](/profile/assets/docsImage/image-3.png)
+![SignUP Screen](/profile/assets/docsImage/image-4.png)
 
 ### Widget Mode and Image Slide Mode
 
 - **Widget Mode** displays the widgets. Additionally, you must log in first to add widgets <br/>
+
 - **Image Slide Mode** displays an image slideshow.
+![Image Slide Screen](/profile/assets/docsImage/image-5.png)
 
 ### Widget Configuration Screen
 
 Users can modify or delete widget positions on this screen. At this point, `react-use-gesture` is used to update the widget's position. After pressing the edit button, users can rearrange widget positions. Once editing is complete, pressing the save button updates the widget position array in local storage and also sends the changes to the server via an API.<br/>
+
+![Widget Configuration Screen](/profile/assets/docsImage/image-6.png)
 
 ### Widget Addition Screen
 
@@ -97,15 +113,25 @@ Clicking on a widget opens a modal where users can add schedules in the calendar
 
 **When adding a schedule** -> The schedule title and content are received using `react-hook-form`. Clicking the "Add Schedule" button sends the data to the server. `TanStack Query` caches the data and updates it using a cache key.<br/>
 
-**When deleting a schedule** -> The schedule is deleted via an API, and the cached data is also updated.
+**When deleting a schedule** -> The schedule is deleted via an API, and the cached data is also updated.<br/>
+
+![Calendar Image](/profile/assets/docsImage/image-7.png)
 
 ### Dimming Feature
 
 This is managed through a dimming provider. Using `window.addEventListener`, it detects `mousemove`, `keydown`, `touchstart`, and `click` events. If no such events are detected for 10 seconds, an additional layer is applied to darken the screen.
 
+![alt text](/profile/assets/docsImage/image-8.png)
+
 ### Dark / Light Mode
 
 The `Context API` is used to globally manage and toggle between dark and light modes. Each mode's CSS values are globally managed to affect the UI.
+
+- Light Mode
+![alt text](/profile/assets/docsImage/image-9.png)
+
+- Dark Mode
+![alt text](/profile/assets/docsImage/image-10.png)
 
 <br/><br>
 
