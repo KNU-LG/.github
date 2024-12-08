@@ -88,6 +88,8 @@ This screen allows users to access various features.
 ### Widget Mode and Image Slide Mode
 
 - **Widget Mode** displays the widgets. Additionally, you must log in first to add widgets <br/>
+![Widget Mode Screen](/profile/assets/docsImage/image-12.png)
+![Widget Mode Screen](/profile/assets/docsImage/image-13.png)
 
 - **Image Slide Mode** displays an image slideshow.
 ![Image Slide Screen](/profile/assets/docsImage/image-5.png)
@@ -261,6 +263,9 @@ $ yarn run start:dev
 # production mode
 $ yarn run start:prod
 ```
+
+## How to package frontend app
+
 
 ### Emulator
 
