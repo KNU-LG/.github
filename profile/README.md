@@ -15,6 +15,11 @@
   </tbody>
 </table>
 
+> Link
+- [Organization](https://github.com/KNU-LG)
+- [Frontend Repository](https://github.com/KNU-LG/frontend)
+- [Backend Repository](https://github.com/KNU-LG/backend)
+
 ## Table of Contents
   - [Outline](#Introduction-to-the-Project) 
 
@@ -65,40 +70,41 @@ By implementing a function to provide various information while minimizing batte
 
 This is the initial screen that appears when the application starts. The configured widgets are displayed here.
 
-![Home Sreen](/profile/assets/docsImage/image-1.png)
+<img src="https://github.com/KNU-LG/frontend/raw/main/src/assets/docsImage/image-1.png">
 
-You can also add a wallpaper through the widget setting mode.
+You can also add a wallpaper through the widget setting mode.(only web browser)
 
-![Add Image](/profile/assets/docsImage/image-11.png)
+<img src="https://github.com/KNU-LG/frontend/raw/main/src/assets/docsImage/image-11.png">
 
 ### Settings Screen
 
 This screen allows users to access various features.
 
-![Settings Screen](/profile/assets/docsImage/image-9.png)
+<img src="https://github.com/KNU-LG/frontend/raw/main/src/assets/docsImage/image-9.png">
+
 ### Login and Signup
 
 `react-hook-form` is used for validation, and `useForm` is utilized to manage login and signup states.<br/>
 
 **On login or signup** -> The input values are sent to the server, and a token is received in response.
 
-![Login Screen](/profile/assets/docsImage/image-3.png)
-![SignUP Screen](/profile/assets/docsImage/image-4.png)
+<img src="https://github.com/KNU-LG/frontend/raw/main/src/assets/docsImage/image-3.png">
+<img src="https://github.com/KNU-LG/frontend/raw/main/src/assets/docsImage/image-4.png">
 
 ### Widget Mode and Image Slide Mode
 
 - **Widget Mode** displays the widgets. Additionally, you must log in first to add widgets <br/>
-![Widget Mode Screen](/profile/assets/docsImage/image-12.png)
-![Widget Mode Screen](/profile/assets/docsImage/image-13.png)
+<img src="https://github.com/KNU-LG/frontend/raw/main/src/assets/docsImage/image-12.png">
+<img src="https://github.com/KNU-LG/frontend/raw/main/src/assets/docsImage/image-13.png">
 
-- **Image Slide Mode** displays an image slideshow.
-![Image Slide Screen](/profile/assets/docsImage/image-5.png)
+- **Image Slide Mode** displays an image slideshow. (will be updated)
+<img src="https://github.com/KNU-LG/frontend/raw/main/src/assets/docsImage/image-5.png">
 
 ### Widget Configuration Screen
 
 Users can modify or delete widget positions on this screen. At this point, `react-use-gesture` is used to update the widget's position. After pressing the edit button, users can rearrange widget positions. Once editing is complete, pressing the save button updates the widget position array in local storage and also sends the changes to the server via an API.<br/>
 
-![Widget Configuration Screen](/profile/assets/docsImage/image-6.png)
+<img src="https://github.com/KNU-LG/frontend/raw/main/src/assets/docsImage/image-6.png">
 
 ### Widget Addition Screen
 
@@ -117,23 +123,23 @@ Clicking on a widget opens a modal where users can add schedules in the calendar
 
 **When deleting a schedule** -> The schedule is deleted via an API, and the cached data is also updated.<br/>
 
-![Calendar Image](/profile/assets/docsImage/image-7.png)
+<img src="https://github.com/KNU-LG/frontend/raw/main/src/assets/docsImage/image-7.png">
 
 ### Dimming Feature
 
 This is managed through a dimming provider. Using `window.addEventListener`, it detects `mousemove`, `keydown`, `touchstart`, and `click` events. If no such events are detected for 10 seconds, an additional layer is applied to darken the screen.
 
-![alt text](/profile/assets/docsImage/image-8.png)
+<img src="https://github.com/KNU-LG/frontend/raw/main/src/assets/docsImage/image-8.png">
 
 ### Dark / Light Mode
 
 The `Context API` is used to globally manage and toggle between dark and light modes. Each mode's CSS values are globally managed to affect the UI.
 
 - Light Mode
-![alt text](/profile/assets/docsImage/image-9.png)
+<img src="https://github.com/KNU-LG/frontend/raw/main/src/assets/docsImage/image-9.png">
 
 - Dark Mode
-![alt text](/profile/assets/docsImage/image-10.png)
+<img src="https://github.com/KNU-LG/frontend/raw/main/src/assets/docsImage/image-10.png">
 
 <br/><br>
 
