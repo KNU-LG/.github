@@ -279,7 +279,7 @@ $ yarn run start:prod
 
 Install the CLI tool using the above command.
 
-> npm build
+> npm run build
 
 Build the React app using the above command.
 
