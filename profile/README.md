@@ -33,7 +33,7 @@
 
 <br/><br>
 # Introduction to the Project
-### **A Lifestyle Custom Standby App**
+### **A Lifestyle Custom Standby Web App**
 
 This project is an app/widget development project based on the webOS so that users can obtain meaningful information even in a standby state.
 <p align="center" style="display: flex; justify-content: space-between;">
